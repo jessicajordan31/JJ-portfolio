@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerContent {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+             1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header-video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+    background: #000;
+    position: relative;
+    top: 0;
+    left: 0;
+    color: #FFF;
+}
+
+.photoOfMe{
+    float: left;
+}
+
+.header a{
+    color: #FFF;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #242424;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+video {
+    position: absolute;
+    min-width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.topnav a{
+    float: left;
+    font-size: 16px;        
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.dropdown{        
+    float: left;
+    overflow: hidden;
+    background-color: #ddd;
+    border-radius: 8px;
+}
+
+.dropdown-social{
+    float: left;
+    overflow: hidden;
+    background-color: #ddd;
+    border-radius: 8px;
+}
+
+.dropdown .dropbtn{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    font-family: inherit;
+    background-color: #aa5519;
+    margin: 0;
+}
+
+.dropdown-social .dropbtnSocial{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    font-family: inherit;
+    background-color: #242424;
+    margin: 0;
+}
+
+.contact a{
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+.topnav a:hover, .dropdown-social:hover .dropbtnSocial {
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.dropdown-content-Soc {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-Soc a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content-Soc a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-social:hover .dropdown-content-Soc {
+  display: block;
+}
+
+.header2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0; 
+    left: 0;
+    color: #FFF;
+    padding: 0 10%;
+    background: #000;
+}
+
+.header3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0; 
+    left: 0;
+    color: #FFF;
+    padding: 0 10%;
+    background: #000;
+}
+
+.header4{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0; 
+    left: 0;
+    color: #FFF;
+    padding: 0 10%;
+    background: #000;
+}
+
+.workExperience>ul>li ul {
+  padding-left: 0.5cm;
+  list-style-type: disc;
+}
+.workExperience>ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.workExperience>ul>li {
+  position: relative;
+  margin: 0;
+  padding-bottom: 0.5cm;
+  padding-left: 0.5cm;
+}
+.workExperience>ul>li:before {
+  background-color: #b8abab;
+  width: 0.05cm;
+  content: '';
+  position: absolute;
+  top: 0.1cm;
+  bottom: -0.2cm; /* change this after border removal */
+  left: 0.05cm;
+}
+
+.workExperience>ul>li::after {
+  content: '';
+  position: absolute;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' viewBox='0 0 32 32' focusable='false'%3E%3Ccircle stroke='none' fill='%23484444' cx='16' cy='16' r='10'%3E%3C/circle%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: -0.09cm;
+  top: 0;
+  width: 0.35cm;
+  height: 0.35cm;
+}
+
+.jobPosition {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projectName span {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.tech-skills-buttons{
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.mouse-button{
+  background-color: #aa5519;
+  border-radius: 8px;
+  padding: 10px;
+  color: #FFF;
+  font-size: 18px;
+  border: 2px solid black;
+  border-color: #FFF;
+}
+
+.card {
+  width: 300px;
+  height: 280px;
+  background-color: #aa5519;
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.card * {
+  transition: 0.3s ease all;
+}
+.card img {
+  margin: 0;
+  width: 300px;
+  height: 224px;
+  object-fit: cover;
+  display: block;
+}
+.card h3 {
+  margin: 0;
+  padding: 12px 12px 48px;
+  line-height: 32px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.card .focus-content {
+  display: block;
+  padding: 8px 12px;
+}
+.card p {
+  margin: 0;
+  line-height: 1.5;
+}
+.card:hover img, .card:focus-within img {
+  margin-top: -80px;
+}
+.card:hover h3, .card:focus-within h3 {
+  padding: 8px 12px 0;
+}
+
+.card2 {
+  width: 300px;
+  height: 280px;
+  background-color: #aa5519;
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.card2 * {
+  transition: 0.3s ease all;
+}
+.card2 img {
+  margin: 0;
+  width: 300px;
+  height: 224px;
+  object-fit: cover;
+  display: block;
+}
+.card2 h3 {
+  margin: 0;
+  padding: 12px 12px 48px;
+  line-height: 32px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.card2 .focus-content2 {
+  display: block;
+  padding: 8px 12px;
+}
+.card2 p {
+  margin: 0;
+  line-height: 1.5;
+}
+.card2:hover img, .card2:focus-within img {
+  margin-top: -80px;
+}
+.card2:hover h3, .card2:focus-within h3 {
+  padding: 8px 12px 0;
+}
+
+.card3 {
+  width: 300px;
+  height: 280px;
+  background-color: #aa5519;
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.card3 * {
+  transition: 0.3s ease all;
+}
+.card3 img {
+  margin: 0;
+  width: 300px;
+  height: 224px;
+  object-fit: cover;
+  display: block;
+}
+.card3 h3 {
+  margin: 0;
+  padding: 12px 12px 48px;
+  line-height: 32px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.card3 .focus-content3 {
+  display: block;
+  padding: 8px 12px;
+}
+.card3 p {
+  margin: 0;
+  line-height: 1.5;
+}
+.card3:hover img, .card3:focus-within img {
+  margin-top: -80px;
+}
+.card3:hover h3, .card3:focus-within h3 {
+  padding: 8px 12px 0;
+}
+
+.format2{
+  float: left;
+  overflow: hidden;
+  margin: 30px;
+}
